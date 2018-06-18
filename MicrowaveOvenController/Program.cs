@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MicrowaveOvenController.Interfaces;
 
 namespace MicrowaveOvenController
 {
@@ -10,6 +6,8 @@ namespace MicrowaveOvenController
     {
         static void Main(string[] args)
         {
+            IApplication application = new Application();
+            application.Run();
         }
     }
 }
