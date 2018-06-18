@@ -44,14 +44,8 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="Interfaces\IApplication.cs" />
-    <Compile Include="Interfaces\IButton.cs" />
-    <Compile Include="Interfaces\IDoor.cs" />
     <Compile Include="Interfaces\IMicrowaveOvenHW.cs" />
     <Compile Include="Interfaces\ITimer.cs" />
-    <Compile Include="Utilities\Button.cs" />
-    <Compile Include="Utilities\Door.cs" />
-    <Compile Include="Utilities\Heater.cs" />
-    <Compile Include="Utilities\Light.cs" />
     <Compile Include="Utilities\MicrowaveOvenController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

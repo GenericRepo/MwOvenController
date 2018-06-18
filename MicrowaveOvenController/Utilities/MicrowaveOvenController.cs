@@ -25,7 +25,6 @@ namespace MicrowaveOvenController.Utilities
         private ITimer timer;
         public ITimer Timer { get { return timer; } }
 
-        private IButton button;
         private bool heaterOn;
 
         public bool HeaterOn
@@ -55,9 +54,6 @@ namespace MicrowaveOvenController.Utilities
 
             timer = new MicrowaveOvenTimer();
             timer.Finished += OnTimerFinished;
-
-            button = new StartButton();
-            button.ButtonPressed += OnStartButtonPressed;
 
             SetInitialState(startingState);
         }
