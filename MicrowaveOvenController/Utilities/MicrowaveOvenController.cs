@@ -1,5 +1,5 @@
-﻿using MicrowaveOvenController.Interfaces;
-using System;
+﻿using System;
+using MicrowaveOvenController.Interfaces;
 
 namespace MicrowaveOvenController.Utilities
 {
